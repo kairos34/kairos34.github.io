@@ -1,0 +1,28 @@
+include ./_mixins.jade
+aside#left_menu
+  div.row
+    div.avatar-shell
+      img(class='avatar', width='160', height='160', src="./assets/img/alpoz.jpg", alt='Alper Özaslan Image')
+  div.row
+    ul.about-group
+      +aside_group_item('', 'Alper Özaslan')
+      +aside_group_item('envelope', 'Email','alper.ytu7@gmail.com')
+      +aside_group_item('phone', 'Phone','+90 506 900 4046')
+      +aside_group_item('birthday-cake', 'Birth Year', '1991')
+      +aside_group_item('map-marker','Address','Muğla/Turkey')
+      +aside_group_item('language', 'Language', 'Turkish (Native)', 'English (Advance)', 'German (Basic)','Swedish (Beginner)','Spanish (Beginner)')
+      +aside_group_item('star', 'Interests','Tv Series, Travelling', 'Football, Body Building, ', 'JVM Langs, Open Source')
+  div.row
+    ul.accounts
+      +account_item('facebook', 'https://www.facebook.com/alperozaslan7', '_blank')
+      +account_item('twitter', 'https://twitter.com/alperozaslan', '_blank')
+      +account_item('linkedin', 'https://es.linkedin.com/in/alper-özaslan-6552a151', '_blank')
+      +account_item('github', 'https://github.com/kairos34', '_blank')
+      +account_item('envelope', 'mailto:alper.ytu7@gmail.com', '_self')
+      +account_item('home', 'http://alperozaslan.com', '_blank')
+  div.row
+    div.qr-shell
+      img(width='150', height='150', src='./assets/img/qr.png', alt='QR Vcard')
+  div.row
+    div.printer
+      button.print(onclick='window.print()') Print page
