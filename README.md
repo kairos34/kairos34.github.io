@@ -1,4 +1,4 @@
-# Single Page Cv
+# Single Page Cv Application
 Live website at http://alpoz.me
 
 #### alpoz.me
