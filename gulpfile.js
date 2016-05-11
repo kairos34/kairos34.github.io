@@ -12,7 +12,7 @@ var imagemin = require('gulp-image-optimization');
 var copy = require('gulp-contrib-copy');
 
 var paths = {
-  port:1991,
+  port:1990,
   partials: './dev/views/partials/*.jade',
   scripts: ['./dev/assets/scripts/common.js'],
   styles:'./dev/assets/styles/*.scss',
